@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+</head>
+<body>
+    <header>
+       <h1><strong> Village of Handi </strong></h1>
+       <p>The best food in the city</p>
+       <hr>
+    </header>
+    <main>
+    <section>
+        <h2>Starter</h2>
+        <ul>
+            <li>Fries - $20</li>
+            <li>Noodles - $30</li>
+            <li>Burgers - $30</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Main Course</h2>
+        <ul>
+            <li>Butter Chicken - $40</li>
+            <li>Paneer Butter Masala - $40</li>
+            <li>Dal Makhni - $35</li>
+        </ul>
+        <h1 style = "color:red;"> Special Offer</h1>
+        <ul>
+            <li>Butter Chicken + 4 Roti - $45</li>
+            <li>Paneer Butter Masala + 4 Roti + 2 Gulab Jamun - $24 </li>
+        </ul>
+    </section>
+    <section>
+        <h2>Desserts</h2>
+<li>
+    Ice Cream - $10
+</li>
+<li>Rasgulla - $10</li>
+  <li>Gulab Jamun - $10</li>
+</section>
+  <section>
+      <h2>Beverages</h2>
+      <ul>
+        <li>Masala Chai - $20</li>
+        <li>Cold Coffee - $60</li>
+        <li>Lemonade - $30</li>
+      </ul>
+    </section>
+</main>
+<footer>
+    <p>Visit us at: <strong>Village of Handi, Moradabad, Uttarpradesh, India</strong></p>
+    <p>Open Dily: 10 AM-10 PM</p>
+    <P>&copy; 2025 Piyush Ranjan</P>
+</footer>
+</body>
+</html>
