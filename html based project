@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Audio and Media</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="h1m">
+        Memories
+    </h1>
+    <div>
+        <h2 id="h2n">
+            Some of the Best Moments:
+        </h2>
+        <ul id="happy">
+            <li>When she prepared lunch for me</li>
+            <li>When we shared the same spoon</li>
+            <li>When we both got stuck in heavy storm</li>
+        </ul>
+    </div>
+    <div>
+        <h2 id="h2m">Best Surprise:</h2>
+    <video src="video.mp4" height="250" controls poster="playtosee.jpg"></video>
+    </div>
+    <div>
+        <h2 id="h2n"> How my life feels after 6/12/2024:</h2>
+    </div>
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/RxXFPTHyJsI?si=tx1Up8xFIelHiSQv&amp;controls=0&amp;start=665" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div>
+    <h2 id="h2m"> A Voice note for you:</h2>
+    </div>
+    <div>
+        <audio src="goodmorning.opus" controls></audio>
+    </div>
+</body>
+</html>
