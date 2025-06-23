@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: black;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            padding: 1em 2em;
+            background-color: rgb(39, 38, 38);
+            border: none;
+            color:bisque;
+            border-radius: 1000px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button::after{
+            content: '';
+            position: absolute;
+            height: 107%;
+            width: 102%;
+            border-radius: 1000px;
+            background-image: linear-gradient(to bottom right,blue,purple);
+            z-index: -1;
+        }
+        button:hover{
+            z-index:0;
+            box-shadow: 40px 0 100px rgb(33, 33, 208), -40px 0 100px rgb(165, 12, 165);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button>I CAN GLOW</button>
+    
+</body>
+</html>
